@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="newGame">
+        <div class="playersNumber">NUMBER OF PLAYERS:</div>
+        <select class="playersCount">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+        <button class="addPlayer">START GAME</button>
+    </div>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="actuallPlayer"></div>
+            <div class="menu">Name</div>
+            <div class="menu">Last</div>
+            <div class="menu">Score</div>
+        </div>
+        <div class="underline"></div>
+
+        <div class="players"></div>
+        <div class="underline"></div>
+        <div class="math">
+            <input class="display" value="0">
+
+            <div class="buttonWrapper">
+                <button>+1</button>
+                <button>+2</button>
+                <button>+3</button>
+            </div>
+
+            <div class="buttonWrapper">
+                <button>+4</button>
+                <button>+5</button>
+                <button>WIN</button>
+            </div>
+
+            <div class="buttonWrapper">
+                <button>Most</button>
+                <button>Hex</button>
+                <button>2xHex</button>
+            </div>
+
+            <div class="buttonWrapper twoButtons">
+                <button>-5</button>
+                <button>-25</button>
+            </div>
+
+            <div class="buttonWrapper twoButtons">
+                <button class="clear">Wyczyść</button>
+                <button class="dodaj">Dodaj</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
